@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Todo App</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='app.js' defer></script>
+    
+</head>
+<body>
+    <div class="color">
+        <h2>Input Form</h2>
+    </div>
+    <form  id="horses">
+        <label for="Taskname">Task name</label><br>
+        <input type="text" id="Taskname" name="11"/>
+        <br>
+        <span id = "TaskName"></span>
+        <br>
+
+        <label for="Assigneename">Assignee</label><br>
+
+        <select class="in" id = "selectAssignee" name="12">
+        <option>Choose a Name </option> 
+        </select> <br>
+        <span id = "sassigneeName"></span>
+        <br>
+        
+        <label for="Datename">Date</label><br>
+        <input type="date" id="Datename" name="13"/><br>
+        <span id = "DateName"></span>
+        <br>
+        
+        <input id ="SubmitButton" type="submit" value="Submit"/>
+        
+    </form>
+    <h2 class="color">In Progress</h2>
+    <div>
+        <table id="InProgress">
+            <tr>
+              <th>Task Details</th>
+              <th>Assignee</th>
+              <th>Due Date</th>
+              <th>Action</th>
+            </tr>
+        </table>
+    </div>
+    <h2 class="color">Completed</h2>
+    <div>
+        <table id="Completed">
+             <tr>
+              <th>Task Details</th>
+              <th>Assignee</th>
+              <th>Due Date</th>
+              <th></th>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>

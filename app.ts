@@ -80,4 +80,3 @@ let clearInputs = () => {
 
 submitB!.addEventListener("click",getForm);
 
-
